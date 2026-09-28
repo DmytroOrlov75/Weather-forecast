@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 423px;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(158deg, #6bc3e6 6%, #addcf0 41%, #a1c2f7 100%);
+    border-radius: 20px;
+    min-height: 74px;
+
+    
+}
+.mainIcon{
+   width: 96px;
+   height: 96px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+.cardInput{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+    
+}
+ input{
+    min-width: 200px;
+    min-height: 30px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    padding-left: 10px;
+   
+}
+.submitBtn{
+    min-width:60px;
+    border-radius: 10px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+;
+}
+ 
+.searchIcon{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 182px;
+    top:50%;
+    transform: translateY(-50%)
+}
+.weatherImg{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precipitationsWeather{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+}
+.townName{
+    font-size: 30px;
+    font-weight: bold;
+}
+.degreesCelsius{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.precipitations{
+    margin-top: 10px;
+}
+
+.min-maxTemp{
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+}
+.humidity{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    display: flex;
+    min-width: 380px;
+    min-height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(158deg, #49b4df 6%, #50acd3 41%, #6ca2f9 100%);
+    border-radius: 10px;
+}
+
+.todayWeather{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-bottom: 30px;
+    background:linear-gradient(158deg, #49b4df 6%, #50acd3 41%, #6ca2f9 100%);
+    min-height: 160px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.dateToday{
+    display: flex;
+    min-width: 380px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+}
+.dateToday:first-child{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.date{
+    padding-right:10px;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+.hoursWeather{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.app-wrap{
+    display: none;
+}
